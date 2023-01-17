@@ -11,7 +11,7 @@ r = Wordnik(api_key=st.secrets.WORDNIK_API)
 
 
 #---STREAMLIT SETTINGS---#
-page_title = "Password & PW-Sentence Generator"
+page_title = "PW & PW-Sentence Generator"
 page_icon = ":building_construction:"
 layout = "centered"
 
@@ -55,7 +55,7 @@ def generate_ps():
 
 #---MAIN PAGE---#
 "#"
-st.title(page_title)
+st.title(f"{page_icon} {page_title}")
 "#"
 
 "---"
