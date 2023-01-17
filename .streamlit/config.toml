@@ -1,0 +1,14 @@
+[theme]
+
+primaryColor = "#fff"
+
+backgroundColor = "#566D56"
+
+secondaryBackgroundColor = "#8269A196"
+
+textColor = "#fff"
+
+[browser]
+gatherUsageStats = false
+
+
